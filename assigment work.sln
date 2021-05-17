@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assigment work", "assigment work\assigment work.csproj", "{4E2ABC64-9821-4B3D-A8B7-A31E4C5ADC51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2ABC64-9821-4B3D-A8B7-A31E4C5ADC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2ABC64-9821-4B3D-A8B7-A31E4C5ADC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2ABC64-9821-4B3D-A8B7-A31E4C5ADC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2ABC64-9821-4B3D-A8B7-A31E4C5ADC51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA5EBEDE-93AF-4CC8-B535-729702A3C875}
+	EndGlobalSection
+EndGlobal
