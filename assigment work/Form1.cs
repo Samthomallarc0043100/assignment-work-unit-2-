@@ -63,13 +63,31 @@ namespace assigment_work
         {
             try
             {
-                //read Height, Width and Length from textboxes
-                double Length = double.Parse(textBox1.Text);
-                double Height = double.Parse(textBox2.Text);
-                double Width = double.Parse(textBox2.Text);
+                //read radius from textboxes
+                double radius = double.Parse(textBox1.Text);
                 //read Surface Area and Volume from labels 
-                double SurfaceArea = 2.0 * (Length * Height + Length * Width + Height * Width);
-                double Volume = Length * Height * Width;
+                double SurfaceArea = 4.0 * Math.PI() * radius * radius;
+                double Volume = 4.0 / 3.0 * Math.PI() * radius * radius * radius;
+                //run the code between these brackets 
+                label1.Text = "Surface Area= " + SurfaceArea;
+                label2.Text = "Volume= " + Volume;
+            }
+            catch
+            {
+                MessageBox.Show("error on input");
+            }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //read radius and hright from textboxes
+                double radius = double.Parse(textBox1.Text);
+                double height = double.Parse(textBox1.Text);
+                //read Surface Area and Volume from labels 
+                double SurfaceArea = 
+                double Volume = 
                 //run the code between these brackets 
                 label1.Text = "Surface Area= " + SurfaceArea;
                 label2.Text = "Volume= " + Volume;
