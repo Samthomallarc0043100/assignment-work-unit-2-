@@ -166,6 +166,7 @@
             this.tabPage.TabIndex = 1;
             this.tabPage.Text = "Sphere";
             this.tabPage.UseVisualStyleBackColor = true;
+            this.tabPage.Click += new System.EventHandler(this.TabPage_Click);
             // 
             // label4
             // 

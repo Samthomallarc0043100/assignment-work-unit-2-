@@ -66,8 +66,8 @@ namespace assigment_work
                 //read radius from textboxes
                 double radius = double.Parse(textBox1.Text);
                 //read Surface Area and Volume from labels 
-                double SurfaceArea = 4.0 * Math.PI() * radius * radius;
-                double Volume = 4.0 / 3.0 * Math.PI() * radius * radius * radius;
+                double SurfaceArea = 4.0 * Math.PI * radius * radius;
+                double Volume = 4.0 / 3.0 * Math.PI * radius * radius * radius;
                 //run the code between these brackets 
                 label1.Text = "Surface Area= " + SurfaceArea;
                 label2.Text = "Volume= " + Volume;
@@ -86,16 +86,21 @@ namespace assigment_work
                 double radius = double.Parse(textBox1.Text);
                 double height = double.Parse(textBox1.Text);
                 //read Surface Area and Volume from labels 
-                double SurfaceArea = 
-                double Volume = 
+                double SurfaceArea = ;
+                double Volume =
                 //run the code between these brackets 
-                label1.Text = "Surface Area= " + SurfaceArea;
+                label1.Text = "Surface Area=" + SurfaceArea;
                 label2.Text = "Volume= " + Volume;
             }
             catch
             {
                 MessageBox.Show("error on input");
             }
+        }
+
+        private void TabPage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
